@@ -1,0 +1,106 @@
+/* smooth scroll */
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+/* font families */ 
+@font-face {
+  font-family: 'AlluraRegular';
+  src: url('../fonts/Allura-Regular.ttf')
+}
+@font-face {
+  font-family: 'Amster1';
+  src: url('../fonts/Amster1.otf')
+}
+@font-face {
+  font-family: 'Amster2';
+  src: url('../fonts//Amster2.otf')
+}
+@font-face {
+  font-family: 'Amster3';
+  src: url('../fonts//Amster3.otf')
+}
+@font-face {
+  font-family: 'Amster4';
+  src: url('../fonts//Amster4.otf')
+}
+@font-face {
+  font-family: 'Andasia';
+  src: url('../fonts//Andasia.otf')
+}
+@font-face {
+  font-family: 'ArchitectsDaughter';
+  src: url('../fonts//ArchitectsDaughter.ttf')
+}
+@font-face {
+  font-family: 'Bakerie';
+  src: url('../fonts//Bakerie.otf')
+}
+@font-face {
+  font-family: 'BillingMiracles';
+  src: url('../fonts//Billion\ Miracles.otf') 
+}
+@font-face {
+  font-family: 'Buffalo';
+  src: url('../fonts//Buffalo.otf')
+}
+@font-face {
+  font-family: 'ColorTime';
+  src: url('../fonts//Color\ Time\ -\ OTF.otf')
+}
+@font-face {
+  font-family: 'Flation';
+  src: url('../fonts//Flatlion.otf')
+}
+@font-face {
+  font-family: 'TheBigMarker';
+  src: url('../fonts//The\ Bigmaker.otf')
+}
+@font-face {
+  font-family: 'NeonFuture';
+  src: url('../fonts//Neon\ Future.ttf')
+}
+@font-face {
+  font-family: 'Neoneon';
+  src: url('../fonts//Neoneon.otf')
+}
+@font-face {
+  font-family: 'NickainleyNormal';
+  src: url('../fonts//Nickainley-Normal.otf')
+}
+@font-face {
+  font-family: 'Outline';
+  src: url('../fonts//Outline.ttf')
+}
+@font-face {
+  font-family: 'PoiretOneRegular';
+  src: url('../fonts//PoiretOne-Regular.ttf')
+}
+@font-face {
+  font-family: 'TimeBurnerNormal';
+  src: url('../fonts//timeburnernormal.ttf')
+}
+@font-face {
+  font-family: 'Waltograph';
+  src: url('../fonts//waltograph.otf')
+}
+@font-face {
+  font-family: 'Altalight';
+  src: url('../fonts//alta-light.otf')
+}
+@font-face {
+  font-family: 'LoveloLineLight';
+  src: url('../fonts//Lovelo\ Line\ Light.otf')
+}
+
+
+
+/* hide contorls for input type number */
+
+
+input[type=number].hide-controls::-webkit-outer-spin-button,
+      input[type=number].hide-controls::-webkit-inner-spin-button {
+        display: none;
+      }
